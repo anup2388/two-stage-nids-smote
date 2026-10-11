@@ -1,0 +1,18 @@
+{
+  "tag": "A3: Flat stack + S-SMOTE",
+  "accuracy": 0.97329841164185,
+  "macro_precision": 0.8747146596995895,
+  "macro_recall": 0.8780065597867186,
+  "macro_f1": 0.8473632237757253,
+  "weighted_f1": 0.9626294426046593,
+  "minority_macro_f1": 0.8025715367534587,
+  "mcc": 0.938624767854436,
+  "attack_detection_rate": 0.9022578069552875,
+  "benign_fpr": 0.00143197093764726,
+  "macro_roc_auc": 0.9862330247023551,
+  "macro_pr_auc": 0.8950258856812574,
+  "train_rows": 4261412,
+  "train_seconds": 1185.315279834,
+  "test_predict_seconds": 12.110870331000115,
+  "latency_us_per_flow": 11.68320655505242
+}

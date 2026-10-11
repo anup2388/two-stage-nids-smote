@@ -1,0 +1,18 @@
+{
+  "tag": "A2: Flat stack",
+  "accuracy": 0.9733890922771934,
+  "macro_precision": 0.8920012659638602,
+  "macro_recall": 0.8586509113556192,
+  "macro_f1": 0.8469766950343477,
+  "weighted_f1": 0.9630156551740628,
+  "minority_macro_f1": 0.8000065381039174,
+  "mcc": 0.9388101618446494,
+  "attack_detection_rate": 0.9029675301632364,
+  "benign_fpr": 0.0015520633043414696,
+  "macro_roc_auc": 0.9871761956302076,
+  "macro_pr_auc": 0.8731988766794997,
+  "train_rows": 4146416,
+  "train_seconds": 1110.7700919679999,
+  "test_predict_seconds": 12.08032896099985,
+  "latency_us_per_flow": 11.653743673819681
+}

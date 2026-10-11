@@ -1,0 +1,79 @@
+feature,ig_score,ig_rank,in_top_k,selected,dropped_correlated_with
+Bwd Seg Size Avg,0.6095309279297005,1,True,True,
+Subflow Fwd Byts,0.6084563622776498,2,True,True,
+Bwd Pkt Len Mean,0.6084107143153576,3,True,False,Bwd Seg Size Avg (|r|=1.000)
+TotLen Fwd Pkts,0.6070607891651583,4,True,False,Subflow Fwd Byts (|r|=1.000)
+Fwd Pkt Len Mean,0.605518408078862,5,True,True,
+Fwd Seg Size Avg,0.6048256507131256,6,True,False,Fwd Pkt Len Mean (|r|=1.000)
+TotLen Bwd Pkts,0.604598756045797,7,True,True,
+Fwd Pkt Len Max,0.603990940604543,8,True,True,
+Subflow Bwd Byts,0.6031146105263687,9,True,False,TotLen Bwd Pkts (|r|=1.000)
+Bwd Pkt Len Max,0.5996236198560949,10,True,True,
+Init Fwd Win Byts,0.5769067372977286,11,True,True,
+Fwd Pkt Len Std,0.5725290037030308,12,True,False,Fwd Pkt Len Max (|r|=0.955)
+Pkt Len Std,0.5711899040961337,13,True,True,
+Bwd Pkt Len Std,0.5709711493164864,14,True,False,Bwd Pkt Len Max (|r|=0.960)
+Pkt Len Var,0.5703310674035655,15,True,True,
+Pkt Len Mean,0.5654281331651709,16,True,False,Bwd Seg Size Avg (|r|=0.934)
+Fwd IAT Tot,0.5644810414317816,17,True,True,
+Flow IAT Max,0.5615078098063222,18,True,True,
+Pkt Size Avg,0.5599171482324756,19,True,False,Bwd Seg Size Avg (|r|=0.928)
+Pkt Len Max,0.556318807976355,20,True,False,Bwd Pkt Len Max (|r|=0.920)
+Fwd IAT Max,0.5520484992720607,21,True,False,Flow IAT Max (|r|=1.000)
+Fwd IAT Mean,0.548750475349703,22,True,True,
+Flow Duration,0.5356874649696739,23,True,False,Fwd IAT Tot (|r|=1.000)
+Flow IAT Mean,0.5253586059461732,24,True,False,Fwd IAT Mean (|r|=1.000)
+Fwd Header Len,0.5177794163625464,25,True,False,Subflow Fwd Byts (|r|=0.959)
+Dst Port,0.5150847539394796,26,True,True,
+Fwd Pkts/s,0.5051318577867265,27,True,True,
+Fwd IAT Min,0.45273245492410386,28,True,False,Fwd IAT Tot (|r|=0.922)
+Init Bwd Win Byts,0.4498061453945794,29,True,True,
+Flow IAT Std,0.4248304704711161,30,True,False,Fwd IAT Min (|r|=0.902)
+Bwd Pkts/s,0.4200074553112485,31,True,True,
+Bwd IAT Tot,0.4089226007273621,32,True,True,
+Bwd Header Len,0.4061298949820993,33,True,False,TotLen Bwd Pkts (|r|=0.997)
+Bwd IAT Max,0.40449610839099237,34,True,True,
+Flow Pkts/s,0.4023797882045195,35,True,False,Fwd Pkts/s (|r|=0.990)
+Fwd IAT Std,0.3868986464898083,36,True,False,Fwd IAT Min (|r|=0.902)
+Flow IAT Min,0.3861595054159219,37,True,False,Fwd IAT Tot (|r|=0.922)
+Bwd IAT Std,0.3860810157990455,38,True,True,
+Bwd IAT Mean,0.37885919430985937,39,True,True,
+Flow Byts/s,0.371361382452996,40,True,True,
+Subflow Bwd Pkts,0.35275020951394676,41,True,False,TotLen Bwd Pkts (|r|=0.997)
+Tot Bwd Pkts,0.35225678212346234,42,True,False,TotLen Bwd Pkts (|r|=0.997)
+Bwd IAT Min,0.3245345612882171,43,True,True,
+Tot Fwd Pkts,0.3153068078222241,44,True,False,Subflow Fwd Byts (|r|=0.963)
+Subflow Fwd Pkts,0.31515725034923503,45,True,False,Subflow Fwd Byts (|r|=0.963)
+Fwd Seg Size Min,0.22529141744082848,46,False,False,
+Fwd Act Data Pkts,0.1973929780846182,47,False,False,
+Idle Max,0.1477376050970287,48,False,False,
+Idle Min,0.14274723767751984,49,False,False,
+Idle Mean,0.14080363845408628,50,False,False,
+ECE Flag Cnt,0.11129754633995281,51,False,False,
+RST Flag Cnt,0.11055268407817498,52,False,False,
+PSH Flag Cnt,0.0767906101671032,53,False,False,
+Protocol,0.07563165836298746,54,False,False,
+ACK Flag Cnt,0.05772373745740822,55,False,False,
+Fwd Pkt Len Min,0.05277995294229121,56,False,False,
+Down/Up Ratio,0.05145426356985694,57,False,False,
+Pkt Len Min,0.050737159494998574,58,False,False,
+Bwd Pkt Len Min,0.04738851702833813,59,False,False,
+Active Max,0.04529777415006264,60,False,False,
+Active Mean,0.04512768319389515,61,False,False,
+Active Min,0.04370987368028212,62,False,False,
+Idle Std,0.027848564867934522,63,False,False,
+Active Std,0.02397688758657468,64,False,False,
+URG Flag Cnt,0.01041806743168272,65,False,False,
+SYN Flag Cnt,0.010236938520454819,66,False,False,
+Fwd PSH Flags,0.009373013538689134,67,False,False,
+Fwd Blk Rate Avg,0.0013355533292342958,68,False,False,
+CWE Flag Count,0.0011487776115535198,69,False,False,
+Fwd URG Flags,0.0011026681289945106,70,False,False,
+Bwd PSH Flags,0.0008207933238051357,71,False,False,
+Bwd URG Flags,0.0007979562107842675,72,False,False,
+FIN Flag Cnt,0.0007722453314247257,73,False,False,
+Fwd Pkts/b Avg,0.0006179604119880278,74,False,False,
+Bwd Pkts/b Avg,0.00042538050579565834,75,False,False,
+Bwd Blk Rate Avg,0.0,76,False,False,
+Fwd Byts/b Avg,0.0,77,False,False,
+Bwd Byts/b Avg,0.0,78,False,False,

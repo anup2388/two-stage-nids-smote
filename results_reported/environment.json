@@ -1,0 +1,72 @@
+{
+  "python": "3.13.16",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "cpu_count": 44,
+  "numpy": "2.1.3",
+  "pandas": "2.2.3",
+  "scikit-learn": "1.6.1",
+  "lightgbm": "4.7.0",
+  "xgboost": "3.4.1",
+  "imbalanced-learn": "0.14.2",
+  "scipy": "1.16.3",
+  "matplotlib": "3.10.0",
+  "ram_gb": 185.7,
+  "cpu_model": "AMD EPYC 9B14",
+  "accelerator": "CPU only",
+  "note": "All models in this pipeline run on CPU.",
+  "config": {
+    "SEED": 42,
+    "TEST_SIZE": 0.2,
+    "IG_SAMPLE": 300000,
+    "IG_TOP_K": 45,
+    "CORR_THRESHOLD": 0.9,
+    "DEDUP_AFTER_ID_DROP": false,
+    "MINORITY_CUTOFF": 10000,
+    "AUG_TARGET": 25000,
+    "SMOTE_K": 5,
+    "SMOTE_EXCLUDE": [
+      "DoS attacks-SlowHTTPTest",
+      "FTP-BruteForce"
+    ],
+    "THRESHOLD_CRITERION": "f1_attack",
+    "GATE_OOF_FOLDS": 3,
+    "SEEDS_REPEAT": [
+      42,
+      7,
+      21,
+      63,
+      99
+    ],
+    "N_BOOT": 1000
+  },
+  "hyperparameters": {
+    "rf_baseline": {
+      "n_estimators": 200,
+      "class_weight": "balanced_subsample"
+    },
+    "gate_lgbm": {
+      "n_estimators": 400,
+      "num_leaves": 64,
+      "learning_rate": 0.1,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "stack_rf": {
+      "n_estimators": 200
+    },
+    "stack_et": {
+      "n_estimators": 200
+    },
+    "stack_lgbm": {
+      "n_estimators": 300,
+      "num_leaves": 64
+    },
+    "stack_meta_xgb": {
+      "n_estimators": 300,
+      "max_depth": 6,
+      "learning_rate": 0.1,
+      "tree_method": "hist"
+    },
+    "stack_cv_folds": 3
+  }
+}

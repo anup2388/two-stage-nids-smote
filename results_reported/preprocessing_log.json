@@ -1,0 +1,19 @@
+{
+  "rows_raw": 9625148,
+  "cols_raw": 79,
+  "header_rows_removed": 0,
+  "rows_removed_nan_inf": 0,
+  "rows_removed_duplicates": 4442127,
+  "identifier_columns_dropped": [],
+  "dup_rows_after_id_drop": 0,
+  "feature_vectors_with_conflicting_labels": 19120,
+  "rows_clean": 5183021,
+  "non_numeric_columns_dropped": [],
+  "n_numeric_features": 78,
+  "rows_train": 4146416,
+  "rows_test": 1036605,
+  "ig_rows_used": 300000,
+  "n_selected_features": 22,
+  "test_rows_with_identical_train_vector": 7871,
+  "test_overlap_fraction": 0.00759305617858297
+}

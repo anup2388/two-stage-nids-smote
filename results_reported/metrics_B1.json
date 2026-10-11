@@ -1,0 +1,23 @@
+{
+  "tag": "B1: Two-stage",
+  "accuracy": 0.9736620988708331,
+  "macro_precision": 0.8923865142393993,
+  "macro_recall": 0.8220952433585701,
+  "macro_f1": 0.8413868638769005,
+  "weighted_f1": 0.9664821489048224,
+  "minority_macro_f1": 0.7702724604926992,
+  "mcc": 0.9391834127101408,
+  "attack_detection_rate": 0.912304826117814,
+  "benign_fpr": 0.004481272770230669,
+  "macro_roc_auc": 0.9933070665085235,
+  "macro_pr_auc": 0.870908054013286,
+  "threshold": 0.7,
+  "train_seconds": 246.36100366000028,
+  "test_predict_seconds": 2.9045203449995824,
+  "stage2_train_rows": 1082109,
+  "stage2_train_seconds": 230.41226376500026,
+  "stage2_predict_all_seconds": 9.285596673000327,
+  "stage2_predict_flagged_seconds": 2.416309593999813,
+  "flagged_rows": 250237,
+  "latency_us_per_flow": 2.801954789914753
+}

@@ -1,0 +1,18 @@
+{
+  "tag": "A1: Flat RF",
+  "accuracy": 0.9584460811977561,
+  "macro_precision": 0.7847713057474812,
+  "macro_recall": 0.7745000598908034,
+  "macro_f1": 0.7787891549920766,
+  "weighted_f1": 0.9564827411978389,
+  "minority_macro_f1": 0.6496282550698511,
+  "mcc": 0.9043053959579623,
+  "attack_detection_rate": 0.9113067778566359,
+  "benign_fpr": 0.024709004447333625,
+  "macro_roc_auc": 0.9828791332896145,
+  "macro_pr_auc": 0.816073701522803,
+  "train_rows": 4146416,
+  "train_seconds": 171.03351426299992,
+  "test_predict_seconds": 3.1767971169999782,
+  "latency_us_per_flow": 3.0646168183637723
+}
